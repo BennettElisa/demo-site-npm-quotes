@@ -1,0 +1,257 @@
+
+/* Default font of entire page */
+  body {
+    font-family:'Philosopher', sans-serif;
+    text-align: center;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+  }
+
+  p {
+    color: #8f8f8f;
+  }
+
+  /* Used to wrap header component */
+  .container-fluid {
+    padding: 3% 15% 0%;
+    padding-bottom:  100px;
+
+  }
+
+  /* White Style Border around front page image  */
+  #row-header{
+    border-style: solid;
+    color: white;
+  }
+
+   /* Title on opening page */
+ .col-lg-6.text-title {
+  border-top-width: 150px;
+  padding-left: 60px;
+}
+
+ /* Underline word in main title */
+span {
+  text-decoration: underline;
+}
+
+.container-fluid.background {
+  background-color: #FEC5BB
+}
+
+  /* Personal Message - Inspiration */
+.inspiration h1 {
+    padding: 50px 50px 10px 50px;
+}
+
+.inspiration p {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.inspiration-text {
+  font-size: 1.5rem;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: black
+
+}
+
+.inspiration {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: 100px;
+  padding-top:75px;
+}
+
+  /* Navagation Bar */
+  .navbar {
+    padding: 0 0 0;
+  }
+
+  a {
+    font-weight: bolder;
+  }
+
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: 700;
+
+  }
+
+  .nav-item {
+    padding: 8px 18px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 300;
+  }
+
+  /* Download Buttons */
+  .download-button {
+    margin: 5% 3% 5% 6%;
+  }
+
+
+/* Front Page Image */
+  .main-img {
+      object-fit: cover;
+  }
+
+  /* Headings */
+  .big-heading {
+    font-family: 'Philosopher', sans-serif;
+    color: black;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-top: 100px;
+  }
+
+  .section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  #viewLeft {
+    background-image: url(/images/yellow-RS.jpeg);
+    background-size: cover;
+    height: 680px;
+
+  }
+
+#viewRight {
+  background-image: url(/images/organge-hijab-LS.jpeg);
+  background-size: cover;
+  height: 680px;
+}
+
+/* #jumbo-fluid{
+    background-image: url(/images/red-RS.jpeg);
+    background-size: cover;
+    height: 680px;
+} */
+
+
+  #carosel-section {
+    background-color: palegoldenrod;
+    color: black;
+  }
+
+
+  /* #jumbotronDisplay{
+    background-color: white;
+    color: black;
+  } */
+
+  #cta {
+    background-image: url(/images/red-RS.jpeg);
+    background-size: cover;
+    height: 580px;
+  }
+
+  .white-section {
+    background-color: #fff;
+  }
+
+  /* Features Section */
+  #features {
+    position: relative;
+    padding: 7% 15%;
+  }
+
+  .feature-title {
+    font-size: 1.5rem;
+  }
+
+  .icon {
+    color:#78244C;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .icon:hover {
+    color: #895061;
+  }
+
+  .phrases {
+    padding: 5%;
+    font-size: 1.25rem;
+
+  }
+
+  /* Quotes for Middle Section */
+.lead{
+
+  font-size: 2.25rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 800;
+  /* font-family: 'Playfair Display', serif;; */
+  /* font-family: 'Philosopher', sans-serif; */
+  /* font-weight: 700; */
+  padding: 10% 5% 5% 5%;
+  padding-top: 20%;
+
+}
+
+  .carousel-item {
+    padding: 7% 15%;
+  }
+
+  .quote-text{
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  /* Call to Action */
+  #cta {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bold;
+  }
+
+  /* Footer */
+
+  #footer {
+    background-color:white;
+  }
+
+  .footer-column {
+    /* padding: 7% 15%; */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  .footer-icon {
+    padding: 2% 2% 4% 2%;
+    font-size: 3.5rem;
+
+  }
+
+  .footer-column.col-lg a{
+      color: black
+  }
+
+  @media (max-width: 1028px) {
+    #title {
+      text-align: center;
+    }
+
+    .main-image {
+      position: static;
+
+    }
+  }
+
+
+
