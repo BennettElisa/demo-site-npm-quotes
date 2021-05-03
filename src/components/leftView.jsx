@@ -1,7 +1,7 @@
 import React from "react"
 import { getQuote } from "black-women-inspire"
 
-function splitString() {
+export function splitString() {
   let quotesObj = getQuote()
   quotesObj = quotesObj.split("-")
 
@@ -13,7 +13,7 @@ function splitString() {
 
 function LeftView() {
   let quotesAndAuthor = splitString()
-  console.log(quotesAndAuthor)
+
   return (
     <section className="color-selection" id="yellowLeftV">
       <div className="row" id="viewLeft">
