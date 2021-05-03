@@ -11,7 +11,7 @@ function Features() {
             <i className="icon fas fa-plus"></i>
             <h3>Easy to use.</h3>
             <p className="phrases">
-              Selection of 65 insipirational quotes from black women.
+              Selection of 65 inspirational quotes from Black women.
             </p>
           </div>
           <div className="col-lg-4">
@@ -26,7 +26,7 @@ function Features() {
             <i className="icon far fa-arrow-alt-circle-down"></i>
             <h3>Npm Package</h3>
             <p className="phrases">
-              An npm package with easy API to generate quotes.
+              An npm package with simple API to generate quotes.
             </p>
           </div>
         </div>
