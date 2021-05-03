@@ -5,7 +5,7 @@ function Footer() {
     <div>
       {/* <!-- Footer --> */}
 
-      <footer class="white-section" id="footer">
+      <footer className="white-section" id="footer">
         <div className="personal-img">
           {/* <img src="/images/profile-pic.jpeg" alt="profile"/> */}
         </div>

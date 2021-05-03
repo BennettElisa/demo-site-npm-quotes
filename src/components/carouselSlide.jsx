@@ -14,22 +14,22 @@ function CarouselSlide() {
         <div className="carousel-inner">
           <div className="carousel-item active">
             <h2 className="quote-text slide">{quotesArray[5].quote}</h2>
-            <h3>{`-${quotesArray[5].author}`}</h3>
+            <h3 className="author-name-slide">{`-${quotesArray[5].author}`}</h3>
           </div>
 
           <div className="carousel-item">
             <h2 className="quote-text slide">{quotesArray[1].quote}</h2>
-            <h3>{`-${quotesArray[1].author}`}</h3>
+            <h3 className="author-name-slide">{`-${quotesArray[1].author}`}</h3>
           </div>
 
           <div className="carousel-item">
             <h2 className="quote-text slide">{quotesArray[2].quote}</h2>
-            <h3>{`-${quotesArray[2].author}`}</h3>
+            <h3 className="author-name-slide">{`-${quotesArray[2].author}`}</h3>
           </div>
 
           <div className="carousel-item">
             <h2 className="quote-text slide">{quotesArray[3].quote}</h2>
-            <h3>{`-${quotesArray[3].author}`}</h3>
+            <h3 className="author-name-slide">{`-${quotesArray[3].author}`}</h3>
           </div>
         </div>
         <a
