@@ -1,6 +1,6 @@
 # Demo Website for npm package
 
-This is demo website to showcase how my npm package "black-women-inspire" can be used to display the quotes included in the package. #InspireDemo
+This is demo website to showcase how my npm package "black-women-inspire" can be used to display the quotes included in the package. Demo website was built using create react app. #InspireDemo
 
 ![npm](https://img.shields.io/npm/v/black-women-inspire?style=for-the-badge)
 
