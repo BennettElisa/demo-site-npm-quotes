@@ -3,7 +3,7 @@
 This is a demo website to showcase how my npm package "black-women-inspire" can be used to display the quotes included in the package. Demo website was built using create react app. #InspireDemo
 
 ![npm](https://img.shields.io/npm/v/black-women-inspire?style=for-the-badge)
-Download the package here ![package](https://www.npmjs.com/package/black-women-inspire)
+Download the package on the [npm package manager website](https://www.npmjs.com/package/black-women-inspire)
 
 # 65 Inspiring Quotes from Black Women
 
